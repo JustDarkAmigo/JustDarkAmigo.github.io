@@ -9,11 +9,31 @@
     height:200px;
     background: #3792C6;
 }
+.search_B>option {
+    text-align: center;
+    text-align: center;
+    font-size: 19px;
+}
+.search_B:focus {
+    border: none;
+}
+.search_B {
+
+    border: none;
+    margin:30px;
+    height: 40px;
+    width: 100px;
+}
+.form {
+    border-top: 5px solid #A9A1A1;
+    border-bottom: 5px solid #A9A1A1;
+}
 
 .JC_B {
     margin-top: 165px;
 display: flex;
 justify-content: space-around;
+align-items: center;
 
 }
 .load_books {
