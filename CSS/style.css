@@ -34,6 +34,7 @@
 display: flex;
 justify-content: space-around;
 align-items: center;
+margin-bottom: 180px;
 
 }
 .load_books {
@@ -52,11 +53,13 @@ align-items: center;
 color: #FFFFFF;
 }
 .wrap_books {
+    /* width: 100%;
+justify-self: center;
     display: grid;
     grid-template-rows: 1fr 1fr;
-  grid-template-columns: 10% 30% 30% 30%;
+  grid-template-columns: 30% 30% 30%; */
 }
-.book_one {
+/* .book_one {
     grid-column-start: 2;
 }
 .book_two {
@@ -73,17 +76,35 @@ color: #FFFFFF;
 }
 .book_six {
     grid-column-start: 4;
+} */
+.wrap_books_B {
+   
+}
+.wrap_books {
+    display: grid;
+    
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    align-items: center;
+  }
+  
+.img_books {
+    width: 95%;
+    height: 95%;
+    align-self: center;
+     
 }
 .book {
-    margin-bottom: 8vh;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
     border-radius: 20px;
-    width: 382px;
-    height:540px;
-    background-color: lightskyblue;
+    width: 23vw;
+    height:30vw;
+    background-color: rgb(190, 190, 190);
 }
-.booking {
-    margin-top: 16vh;
-}
+
 
 .wrap_footer {
     display: flex;
@@ -91,6 +112,7 @@ color: #FFFFFF;
     background-color: #D8D6D5;;
     width: 100%;
     height: 150px;
+    margin-top: 100px;
 }
 .progect,.SS_B {
     list-style-type: none;
