@@ -16,17 +16,17 @@
                 <p class="P_SB">Предмет</p>
             </div> -->
             <form class="form">
-            <select class="search_B">
-                <option value="volvo ">Автор</option>
-                <option value="saab">Мерзляк Полонский Якир</option>
-                <option value="opel">Карамышев</option>
+            <select class="search_B" name="Author">
+                <option value="all_book ">все авторы</option>
+                <option value="MerzlyakPokjnski">Мерзляк П. Я.</option>
+                <option value="Piorishkin">Перышкин</option>
                 <option value="audi">Audi</option>
               </select>
-              <select class="search_B">
-                <option value="volvo">Предмет</option>
-                <option value="saab">Алгебра</option>
-                <option value="opel">Геометрия</option>
-                <option value="audi">Русский</option>
+              <select class="search_B" name="subject">
+                <option value="all_book">Все предметы</option>
+                <option value="Algebra">Алгебра</option>
+                <option value="physics">Физика</option>
+                <option value="social_studies">Обществознание</option>
               </select>
               </form>
 
@@ -36,21 +36,51 @@
         </div>
         <div class="wrap_books_B">
         <div class="wrap_books">
-            <div class="book_one book"><img src="IMG\content/A8MerzlyakPokjnski.png" class="img_books"></div>
-            <div class="book_two book"><img src="IMG\content/CHE8Gabrilean.jpg" class="img_books"></div>
-            <div class="book_three book"><img src="IMG\content/HR8Andreev.jpg" class="img_books"></div>
-            <div class="book_four book"><img src="IMG\content/O8Bogolubova.jpg" class="img_books"></div>
-            <div class="book_five book"><img src="IMG\content/.jpg"></div>
-            <div class="book_six book"><img src="IMG\content/phf8Piorishkin.jpg" class="img_books"></div>
-            <div class="book_one book"><img src="IMG\content/A8MerzlyakPokjnski.png" class="img_books"></div>
-            <div class="book_two book"><img src="IMG\content/CHE8Gabrilean.jpg" class="img_books"></div>
-            <div class="book_three book"><img src="" class="img_books"></div>
-            <div class="book_four book"><img src="" class="img_books"></div>
-            <div class="book_five book"><img src=""></div>
-            <div class="book_six book"><img src="" class="img_books"></div>
+            <div class="book">
+                <div class="MerzlyakPokjnski Algebra all_book">
+                <img src="IMG\content/A8MerzlyakPokjnski.png" class="img_books">
+                </div>
+            </div>
+
+            <div class="book">
+                <div class="Gabrilean chemistry all_book">
+                <img src="IMG\content/CHE8Gabrilean.jpg" class="img_books">
+                </div>
+            </div>
+
+            <div class="book ">
+                <div class="Andreev history all_book">
+                <img src="IMG\content/HR8Andreev.jpg" class="img_books">
+                </div>
+            </div>
+
+            <div class="book">
+                <div class="Bogolubova social_studies all_book">
+                <img src="IMG\content/O8Bogolubova.jpg" class="img_books">
+                </div>
+            </div>
+
+            <div class="book">
+                <div class="all_book">
+                <img src="IMG\content/.jpg">
+                </div>
+            </div>
+
+            <div class="book">
+                <div class=" Piorishkin physics all_book">
+                <img src="IMG\content/phf8Piorishkin.jpg" class="img_books">
+                </div>
+            </div>
+
+            <div class="book hidden_book"><img src="IMG\content/A8MerzlyakPokjnski.png" class="img_books"></div>
+            <div class="book hidden_book"><img src="IMG\content/CHE8Gabrilean.jpg" class="img_books"></div>
+            <div class="book hidden_book"><img src="IMG\content/HR8Andreev.jpg" class="img_books"></div>
+            <div class="book hidden_book"><img src="IMG\content/phf8Piorishkin.jpg" class="img_books"></div>
+            <div class="book hidden_book"><img src="IMG\content/phf8Piorishkin.jpg" class="img_books"></div>
+            <div class="book hidden_book"><img src="IMG\content/phf8Piorishkin.jpg" class="img_books"></div>
         </div>
         </div>
-        <button>abc</button>
+        <button id="show_books">abc</button>
         <footer>
             <div class="wrap_footer">
                     <ul class="SS_B">

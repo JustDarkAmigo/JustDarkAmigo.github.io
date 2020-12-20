@@ -39,17 +39,22 @@ margin-bottom: 180px;
 
 }
 .load_books {
-
+    display:flex;
     width: 331px;
     height: 128px;
     background: #349FDB;
     border-radius: 20px;
+    align-items: center;
+    justify-content: center;
 }
 .loadMB {
-    margin-top: 6%;
+    display:flex;
     text-align: center;
     font-size: 30px;
     line-height: 42px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
 
 color: #FFFFFF;
 }
@@ -98,13 +103,29 @@ justify-self: center;
 }
 .book {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    /* надо убрать когда переделаю структуру для hidden book */
+    justify-self: center;
+    border-radius: 20px;
+    width: 23vw;
+    height:30vw;
+    background-color: rgb(0, 0, 0);
+    /* до сюда */
+
+}
+.book>div {
+    display: flex;
+    align-items: center;
     justify-content: center;
     justify-self: center;
     border-radius: 20px;
     width: 23vw;
     height:30vw;
     background-color: rgb(0, 0, 0);
-
+}
+.hidden_book {
+    display: none;
 }
 
 
